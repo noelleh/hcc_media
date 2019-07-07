@@ -1754,19 +1754,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo {
   text-align: center;
-  padding: 15px 0;
-  margin-right: 35px; }
+  padding: 10px 0;
+  margin-right: 30px; }
   .logo img {
-    width: 50%; }
+    width: 25%; }
     @media (max-width: 991px) {
       .logo img {
-        width: 42%; } }
+        width: 30%; } }
     @media (max-width: 680px) {
       .logo img {
-        width: 75%; } }
+        width: 40%; } }
     @media (max-width: 420px) {
       .logo img {
-        width: 100%; } }
+        width: 60%; } }
   @media (max-width: 991px) {
     .logo {
       position: absolute;
@@ -1858,16 +1858,15 @@ h1, h2, h3, h4, h5, h6 {
 .menu-right .nav-item .nav-link {
   margin-right: 24px;
   color: #000;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   text-transform: uppercase;
   font-size: 13px;
-  font-weight: 500;
-  padding: 37px 0px; }
+  font-weight: 500; }
   .menu-right .nav-item .nav-link:hover, .menu-right .nav-item .nav-link.active {
     color: #448df2; }
   @media (max-width: 1199px) {
     .menu-right .nav-item .nav-link {
-      margin-right: 16px; } }
+      margin-right: 23px; } }
   @media (max-width: 991px) {
     .menu-right .nav-item .nav-link {
       padding: 10px 0;
@@ -1912,14 +1911,6 @@ h1, h2, h3, h4, h5, h6 {
 ============================================================================================ */
 .home-banner-area {
   position: relative; }
-  @media (max-width: 991px) {
-    .home-banner-area {
-      background: #eaeaea;
-      padding: 172px 20px 100px; } }
-  @media (max-width: 991px) {
-    .home-banner-area .no-js .owl-carousel,
-    .home-banner-area .owl-carousel.owl-loaded {
-      display: none; } }
   .home-banner-area .text-wrapper {
     width: 100%;
     position: absolute;
@@ -1937,16 +1928,12 @@ h1, h2, h3, h4, h5, h6 {
       .home-banner-area .text-wrapper {
         width: 80%;
         margin: auto;
-        color: #777777;
-        position: static;
-        -webkit-transform: translate(0%, 0%);
-        -moz-transform: translate(0%, 0%);
-        -ms-transform: translate(0%, 0%);
-        -o-transform: translate(0%, 0%);
-        transform: translate(0%, 0%); } }
+        top: 80%;
+        position: absolute; } }
     @media (max-width: 575px) {
       .home-banner-area .text-wrapper {
-        width: 100%; } }
+        width: 100%;
+        top: 100%; } }
     .home-banner-area .text-wrapper h1 {
       color: #fff;
       font-size: 60px; }
@@ -2022,7 +2009,8 @@ h1, h2, h3, h4, h5, h6 {
   .banner-content h1 {
     color: #fff;
     font-size: 48px;
-    text-transform: capitalize; }
+    text-transform: capitalize;
+    margin-bottom: 55% }
     @media (max-width: 991px) {
       .banner-content h1 {
         color: #000; } }
