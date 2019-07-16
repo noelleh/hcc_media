@@ -655,13 +655,13 @@ th {
   margin-right: 0; }
 
 .section-gap {
-  padding: 120px 0; }
+  padding: 60px 0; }
   @media (max-width: 991px) {
     .section-gap {
       padding: 60px 0; } }
 
 .section-gap-top {
-  padding-top: 120px; }
+  padding-top: 60px; }
   @media (max-width: 991px) {
     .section-gap-top {
       padding-top: 60px; } }
@@ -681,7 +681,8 @@ th {
   -webkit-text-fill-color: transparent; }
 
 .section-title {
-  padding-bottom: 80px; }
+  padding-top: 50px;
+  padding-bottom: 15px; }
   @media (max-width: 991px) {
     .section-title {
       padding-bottom: 30px; } }
