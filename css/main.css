@@ -2250,11 +2250,13 @@ h1, h2, h3, h4, h5, h6 {
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s; }
 .single-team-member .proff {
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-bottom:10px;
   text-align: center; }
   @media (max-width: 767px) {
     .single-team-member .proff {
-      margin-top: 15px; } }
+      margin-top: 15px;
+      margin-bottom:8px; } }
   .single-team-member .proff h4 {
     font-weight: 700;
     margin-bottom: 5px; }
@@ -3170,18 +3172,23 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 35px; }
   @media (max-width: 991px) {
     .f-title {
-      margin: 15px 0px; } }
+      margin: 15px 0px;
+      text-align: center; } }
   .f-title h3 {
     color: #fff;
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 0px;
-    text-transform: capitalize; }
+    text-transform: capitalize;
+    text-align: center; }
+  .f-title p {
+    text-align: center; }
 
 .ab-widget p {
   font-size: 14px;
   line-height: 24px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  text-align: center; }
   .ab-widget p a {
     color: #448df2; }
   .ab-widget p + p {
