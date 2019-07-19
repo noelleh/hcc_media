@@ -1940,13 +1940,13 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 60px; }
       @media (max-width: 1199px) {
         .home-banner-area .text-wrapper h1 {
-          font-size: 40px; } }
+          font-size: 35px; } }
       @media (max-width: 991px) {
         .home-banner-area .text-wrapper h1 {
           color: #000; } }
       @media (max-width: 575px) {
         .home-banner-area .text-wrapper h1 {
-          font-size: 32px; } }
+          font-size: 20px; } }
     .home-banner-area .text-wrapper p {
       margin: 25px 0; }
     @media (max-width: 991px) {
